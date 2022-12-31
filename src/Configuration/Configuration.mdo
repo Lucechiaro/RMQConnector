@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eacbf615-5b0d-488d-bfd9-943bec5875da">
+  <name>RMQConnector</name>
+  <synonym>
+    <key>en</key>
+    <value>RMQ Connector</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="354c86a7-b5aa-4683-b119-54c26e5bcbfd"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5d0524c9-9d91-4d4d-ac0a-bf8ee5438f3d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b5d41995-064b-4851-af12-028fd57949d8"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="dbb5f5ee-c0be-4bb3-9431-64538770fcf1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="56538d5a-4944-4df3-87c3-d248e897d670"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="35c1cbcc-d7dd-485c-9d4f-e06c536d6a2b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="b184904f-fe5d-46f0-9493-ded4ce7c3b71"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="897ebdfa-d050-494c-92df-8e124310640f">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+</mdclass:Configuration>
