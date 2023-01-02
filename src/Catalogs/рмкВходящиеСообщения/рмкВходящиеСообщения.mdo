@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6387bee3-65c0-4082-9ba3-ff53fc2fa930">
+  <producedTypes>
+    <objectType typeId="9cfeddb4-612b-4215-8ce1-c712d0972acf" valueTypeId="ebf2382b-7ba1-4f81-9157-4ba7ee21b57c"/>
+    <refType typeId="c5a43862-61a2-45bd-96e0-6189ce44c185" valueTypeId="b1cbacfb-1cfd-4456-9c19-7b0632b68134"/>
+    <selectionType typeId="73ed823c-387c-4f71-b774-7f7dfbe08221" valueTypeId="45c8419b-dcd7-4e20-adea-fc1f5f43f681"/>
+    <listType typeId="b2ee6098-f1fa-43a1-8e19-84e941d92119" valueTypeId="eeff8855-3d0b-44fa-acb4-7bf9457b0c2c"/>
+    <managerType typeId="2c2c8d53-78fa-4144-b60c-e5be9fa6adf4" valueTypeId="68ed85df-4cd7-472a-a41d-9e88fd3cf14c"/>
+  </producedTypes>
+  <name>рмкВходящиеСообщения</name>
+  <synonym>
+    <key>en</key>
+    <value>Входящие сообщения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рмкВходящиеСообщения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.рмкВходящиеСообщения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

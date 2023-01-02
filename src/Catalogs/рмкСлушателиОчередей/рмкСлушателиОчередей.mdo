@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2cb3e3-1f72-470d-8223-ed3572052029">
+  <producedTypes>
+    <objectType typeId="f5414fad-da25-4f44-9cc3-99119038409e" valueTypeId="cdf8e6f4-39ce-40a8-add8-0d105916aa9e"/>
+    <refType typeId="fda6349f-2a60-4fdf-a72c-949eb594025f" valueTypeId="d01d4c79-fad0-485c-bb29-3f521113cd72"/>
+    <selectionType typeId="3236e953-5311-4e76-b5b6-e69a8e58fdd4" valueTypeId="8ef7e511-d7ff-4ee6-93fd-48708c21a7d0"/>
+    <listType typeId="18004562-92ed-46e7-86d6-190f28dada4f" valueTypeId="1ab71234-6652-4e4a-aaa1-9037fdfc5380"/>
+    <managerType typeId="f1e5adfd-8033-4ee6-8464-ebc14a2f3ac0" valueTypeId="6cf2e01f-d822-4ebc-a43a-62a5d85a3e9b"/>
+  </producedTypes>
+  <name>рмкСлушателиОчередей</name>
+  <synonym>
+    <key>en</key>
+    <value>Слушатели очередей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рмкСлушателиОчередей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.рмкСлушателиОчередей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

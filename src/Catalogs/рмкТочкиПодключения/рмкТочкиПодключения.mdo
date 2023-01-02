@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1330eacd-5d60-4856-9ec7-b2dbbe769e95">
+  <producedTypes>
+    <objectType typeId="5d0e960a-a385-4b16-b7b4-4d20e0e223af" valueTypeId="8e3a30f5-3a9c-4d8e-9f1f-58d9c4e1a212"/>
+    <refType typeId="bb33b2a1-e397-48f6-a650-9a5cc324bf68" valueTypeId="31a625b6-1906-4eac-b81d-4ca703f649db"/>
+    <selectionType typeId="d724001e-ada1-47b3-93a5-aeae35c56efb" valueTypeId="a0680f03-ac0b-4a20-b85f-dc1860f55c52"/>
+    <listType typeId="d34f6acf-9698-4c2f-a873-192e8629f348" valueTypeId="e14396b6-0a63-4fd7-ab9e-cb44f8ce3a7b"/>
+    <managerType typeId="e1676344-2aaf-475d-8f24-b118e1e45aa7" valueTypeId="9ba1871f-4ea6-4db9-8e91-a3b3005b133f"/>
+  </producedTypes>
+  <name>рмкТочкиПодключения</name>
+  <synonym>
+    <key>en</key>
+    <value>Рмк точки подключения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рмкТочкиПодключения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.рмкТочкиПодключения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c94ce38b-089b-44a8-9ce2-c4c5aed5f3c8">
+    <name>Сервер</name>
+    <synonym>
+      <key>en</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рмкСерверы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f086b14-1d72-4b11-a6d5-bb1937d65b7e">
+    <name>ИмяТочки</name>
+    <synonym>
+      <key>en</key>
+      <value>Имя точки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

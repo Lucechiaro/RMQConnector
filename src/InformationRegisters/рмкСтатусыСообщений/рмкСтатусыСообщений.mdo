@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c5a9311-37d1-4612-8bb9-702166b317f5">
+  <producedTypes>
+    <selectionType typeId="64b38194-3c31-4e26-b8b8-90be1ab399ba" valueTypeId="453f59da-9cf5-4902-98ac-599baf4dd0f2"/>
+    <listType typeId="945dff14-84dc-4928-bf79-f2e1143ab344" valueTypeId="9560cf38-bb29-4782-b86c-4149c5822986"/>
+    <managerType typeId="1dfc81a1-8e95-4056-a82a-0e263fd727f7" valueTypeId="9c979b12-3d59-490c-b5d6-8eac3ce45a55"/>
+    <recordSetType typeId="e784e832-55a3-4709-8916-1c69e70d622c" valueTypeId="45cb385e-2225-4008-ac0e-b29507141ee7"/>
+    <recordKeyType typeId="17060407-c363-479d-84d0-f04bbc9bb0e8" valueTypeId="b01cb5ba-e168-45c9-9dd8-88edea8b9c8a"/>
+    <recordType typeId="746adfd6-9307-4ca6-8804-e97f0aac1d35" valueTypeId="9b1abe87-1be4-4b28-a6f0-4f22e85f92fd"/>
+    <recordManagerType typeId="aa1c3192-9fce-486a-a035-876b3a448abe" valueTypeId="9b70874a-45a6-48b5-aea3-8055927fdb35"/>
+  </producedTypes>
+  <name>рмкСтатусыСообщений</name>
+  <synonym>
+    <key>en</key>
+    <value>Статусы сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="984875c1-9a9f-4066-a3d5-7e446ddb612a">
+    <name>Статус</name>
+    <synonym>
+      <key>en</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рмкСтатусыСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f928facc-0e3b-492b-8b99-c5fdad6f8783">
+    <name>Информация</name>
+    <synonym>
+      <key>en</key>
+      <value>Информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b5e3bd10-5c4e-407d-92f3-4a9b39def961">
+    <name>Сообщение</name>
+    <synonym>
+      <key>en</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.рмкВходящиеСообщения</types>
+      <types>CatalogRef.рмкИсходящиеСообщения</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0dcdc032-8728-4949-9a81-58f5059a3eeb">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

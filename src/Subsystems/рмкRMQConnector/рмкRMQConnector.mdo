@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="166f52b0-5b98-498d-ab3e-b82110c161ca">
+  <name>рмкRMQConnector</name>
+  <synonym>
+    <key>en</key>
+    <value>RMQ Connector</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

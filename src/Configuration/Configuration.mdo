@@ -15,6 +15,7 @@
   <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -24,7 +25,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
-  <defaultLanguage>Language.English</defaultLanguage>
+  <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -38,4 +39,25 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
+  <languages uuid="99be90b2-fd14-462a-8107-4c5b6b957db8">
+    <name>Русский</name>
+    <synonym>
+      <key>en</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.рмкRMQConnector</subsystems>
+  <roles>Role.рмкНастройкаКоннектораRMQ</roles>
+  <commonModules>CommonModule.рмкОбработкаВходящихСообщенийСобытия</commonModules>
+  <commonModules>CommonModule.рмкОбработкаИсходящихСообщенийСобытия</commonModules>
+  <eventSubscriptions>EventSubscription.рмкПриЗаписиОбъектаРепликации</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.рмкПолучениеСообщенийИзОчередей</scheduledJobs>
+  <catalogs>Catalog.рмкВходящиеСообщения</catalogs>
+  <catalogs>Catalog.рмкИсходящиеСообщения</catalogs>
+  <catalogs>Catalog.рмкСерверы</catalogs>
+  <catalogs>Catalog.рмкСлушателиОчередей</catalogs>
+  <catalogs>Catalog.рмкТочкиПодключения</catalogs>
+  <enums>Enum.рмкСтатусыСообщений</enums>
+  <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
 </mdclass:Configuration>
