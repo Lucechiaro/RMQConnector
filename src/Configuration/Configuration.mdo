@@ -51,13 +51,23 @@
   <roles>Role.рмкНастройкаКоннектораRMQ</roles>
   <commonModules>CommonModule.рмкОбработкаВходящихСообщенийСобытия</commonModules>
   <commonModules>CommonModule.рмкОбработкаИсходящихСообщенийСобытия</commonModules>
+  <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.рмкОбщегоНазначенияПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.рмкПриЗаписиОбъектаРепликации</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.рмкОбработкаВходящихСообщений</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рмкОтложенноеПроведениеДокументов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рмкОчисткаУстаревшихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкПолучениеСообщенийИзОчередей</scheduledJobs>
+  <constants>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</constants>
+  <catalogs>Catalog.рмкВиртуальныеХосты</catalogs>
   <catalogs>Catalog.рмкВходящиеСообщения</catalogs>
   <catalogs>Catalog.рмкИсходящиеСообщения</catalogs>
   <catalogs>Catalog.рмкСерверы</catalogs>
   <catalogs>Catalog.рмкСлушателиОчередей</catalogs>
   <catalogs>Catalog.рмкТочкиПодключения</catalogs>
+  <enums>Enum.рмкСпособыСериализации</enums>
   <enums>Enum.рмкСтатусыСообщений</enums>
+  <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
+  <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>
   <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
 </mdclass:Configuration>

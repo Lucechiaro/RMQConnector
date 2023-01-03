@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27887803-0c48-4e55-a1d5-b3647af53f22">
+  <name>рмкОбработкаВходящихСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка входящих сообщений</value>
+  </synonym>
+  <methodName>CommonModule.рмкОбщегоНазначения.ОбработатьВходящиеСообщения</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
