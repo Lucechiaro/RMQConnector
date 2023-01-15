@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2cb3e3-1f72-470d-8223-ed3572052029">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2cb3e3-1f72-470d-8223-ed3572052029">
   <producedTypes>
     <objectType typeId="f5414fad-da25-4f44-9cc3-99119038409e" valueTypeId="cdf8e6f4-39ce-40a8-add8-0d105916aa9e"/>
     <refType typeId="fda6349f-2a60-4fdf-a72c-949eb594025f" valueTypeId="d01d4c79-fad0-485c-bb29-3f521113cd72"/>
@@ -30,4 +30,85 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="da6363b0-d36a-452b-9c9b-46872c365b1f">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рмкСерверы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0777c693-92c4-4f9f-8520-db4ee38b00e9">
+    <name>ВиртуальныйХост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный хост</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рмкВиртуальныеХосты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4c360b5-297d-48d4-bdd7-72040863b440">
+    <name>ИмяОчереди</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя очереди</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17340a6a-eb09-42e9-976a-58ac797b37e3">
+    <name>СпособДесериализацииОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ десериализации объекта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рмкСпособыСериализации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc320572-c8a4-4e73-a6f6-fb8f7c8ad213">
+    <name>ИмяМетодаДесериализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода десериализации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

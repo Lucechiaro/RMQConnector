@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0a30af9-d09b-4e6c-8745-5284a38f547e">
+  <producedTypes>
+    <objectType typeId="2cfc12d8-f65e-42ef-af02-d2fc4841d9e6" valueTypeId="0f53c282-6524-45da-a8f4-31ed4718c162"/>
+    <refType typeId="be90c551-69e4-422b-8199-56f9517ca8ec" valueTypeId="4dd980ed-095a-4047-a8a5-dea603c5f16c"/>
+    <selectionType typeId="9d2b7a70-95ba-4ec6-8640-2df050c131c1" valueTypeId="51af71d6-0fe9-4728-9e15-ee156f9bb733"/>
+    <listType typeId="9ef5bfd0-befb-4b12-91b9-e0408f02bd8a" valueTypeId="745d2e1c-cffc-4e45-a568-dd5a0a1800e0"/>
+    <managerType typeId="d9557626-1494-4204-86a7-e05822b30336" valueTypeId="03862cb0-bfc9-40d8-b0e6-fd5f33bb11dd"/>
+  </producedTypes>
+  <name>Тест_Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Тест_Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Тест_Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="06c7e62d-6011-4324-9fa7-93b9ad3c6ff9">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e59e1852-5646-4274-83d5-69b56feab505">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

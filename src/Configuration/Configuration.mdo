@@ -49,6 +49,7 @@
   </languages>
   <subsystems>Subsystem.рмкRMQConnector</subsystems>
   <roles>Role.рмкНастройкаКоннектораRMQ</roles>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</commonTemplates>
   <commonModules>CommonModule.рмкОбработкаВходящихСообщенийСобытия</commonModules>
   <commonModules>CommonModule.рмкОбработкаИсходящихСообщенийСобытия</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
@@ -65,9 +66,11 @@
   <catalogs>Catalog.рмкСерверы</catalogs>
   <catalogs>Catalog.рмкСлушателиОчередей</catalogs>
   <catalogs>Catalog.рмкТочкиПодключения</catalogs>
+  <catalogs>Catalog.Тест_Номенклатура</catalogs>
   <enums>Enum.рмкСпособыСериализации</enums>
   <enums>Enum.рмкСтатусыСообщений</enums>
   <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
+  <dataProcessors>DataProcessor.рмкКонсольОтладки</dataProcessors>
   <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>
   <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
 </mdclass:Configuration>

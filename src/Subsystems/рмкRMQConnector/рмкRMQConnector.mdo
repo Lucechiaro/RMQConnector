@@ -6,5 +6,26 @@
     <value>RMQ Connector</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.рмкОбработкаВходящихСообщенийСобытия</content>
+  <content>CommonModule.рмкОбработкаИсходящихСообщенийСобытия</content>
+  <content>CommonModule.рмкОбщегоНазначения</content>
+  <content>CommonModule.рмкОбщегоНазначенияПереопределяемый</content>
+  <content>Role.рмкНастройкаКоннектораRMQ</content>
+  <content>EventSubscription.рмкПриЗаписиОбъектаРепликации</content>
+  <content>ScheduledJob.рмкОбработкаВходящихСообщений</content>
+  <content>ScheduledJob.рмкОтложенноеПроведениеДокументов</content>
+  <content>ScheduledJob.рмкОчисткаУстаревшихСообщений</content>
+  <content>ScheduledJob.рмкПолучениеСообщенийИзОчередей</content>
+  <content>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</content>
+  <content>Catalog.рмкВиртуальныеХосты</content>
+  <content>Catalog.рмкВходящиеСообщения</content>
+  <content>Catalog.рмкИсходящиеСообщения</content>
+  <content>Catalog.рмкСерверы</content>
+  <content>Catalog.рмкСлушателиОчередей</content>
+  <content>Catalog.рмкТочкиПодключения</content>
+  <content>Enum.рмкСпособыСериализации</content>
+  <content>Enum.рмкСтатусыСообщений</content>
+  <content>DataProcessor.рмкКоннектор</content>
+  <content>DataProcessor.рмкМенеджерКонвертации</content>
+  <content>InformationRegister.рмкСтатусыСообщений</content>
 </mdclass:Subsystem>
