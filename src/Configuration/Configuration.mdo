@@ -50,8 +50,7 @@
   <subsystems>Subsystem.рмкRMQConnector</subsystems>
   <roles>Role.рмкНастройкаКоннектораRMQ</roles>
   <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</commonTemplates>
-  <commonModules>CommonModule.рмкОбработкаВходящихСообщенийСобытия</commonModules>
-  <commonModules>CommonModule.рмкОбработкаИсходящихСообщенийСобытия</commonModules>
+  <commonModules>CommonModule.рмкОбработкаСообщений</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначенияПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.рмкПриЗаписиОбъектаРепликации</eventSubscriptions>
@@ -72,5 +71,6 @@
   <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
   <dataProcessors>DataProcessor.рмкКонсольОтладки</dataProcessors>
   <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>
+  <dataProcessors>DataProcessor.рмкМенеджерПлатформеннойСериализации</dataProcessors>
   <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
 </mdclass:Configuration>

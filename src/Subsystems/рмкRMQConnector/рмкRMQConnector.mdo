@@ -6,8 +6,6 @@
     <value>RMQ Connector</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonModule.рмкОбработкаВходящихСообщенийСобытия</content>
-  <content>CommonModule.рмкОбработкаИсходящихСообщенийСобытия</content>
   <content>CommonModule.рмкОбщегоНазначения</content>
   <content>CommonModule.рмкОбщегоНазначенияПереопределяемый</content>
   <content>Role.рмкНастройкаКоннектораRMQ</content>

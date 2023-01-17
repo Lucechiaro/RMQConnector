@@ -10,5 +10,5 @@
     <types>DocumentObject</types>
   </source>
   <event>OnWrite</event>
-  <handler>CommonModule.рмкОбработкаИсходящихСообщенийСобытия.ПриЗаписиОбъектаРепликации</handler>
+  <handler>CommonModule.рмкОбработкаСообщений.ПриЗаписиОбъектаРепликации</handler>
 </mdclass:EventSubscription>

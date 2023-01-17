@@ -97,10 +97,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="750bfb3d-395e-41ae-b88c-85524f995ddd">
-    <name>СпособСериализацииОбъекта</name>
+    <name>СпособСериализации</name>
     <synonym>
       <key>ru</key>
-      <value>Способ сериализации объекта</value>
+      <value>Способ сериализации</value>
     </synonym>
     <type>
       <types>EnumRef.рмкСпособыСериализации</types>

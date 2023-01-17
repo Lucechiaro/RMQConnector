@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Обработка входящих сообщений</value>
   </synonym>
-  <methodName>CommonModule.рмкОбщегоНазначения.ОбработатьВходящиеСообщения</methodName>
+  <methodName>CommonModule.рмкОбработкаСообщений.ОбработатьВходящиеСообщения</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

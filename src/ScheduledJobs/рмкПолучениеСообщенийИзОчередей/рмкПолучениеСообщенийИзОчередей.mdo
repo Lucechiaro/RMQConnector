@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Получение сообщений из очередей RMQ</value>
   </synonym>
-  <methodName>CommonModule.рмкОбработкаВходящихСообщенийСобытия.рмкПолучениеСообщенийИзОчередей</methodName>
+  <methodName>CommonModule.рмкОбработкаСообщений.ПолучитьСообщенияИзОчередей</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

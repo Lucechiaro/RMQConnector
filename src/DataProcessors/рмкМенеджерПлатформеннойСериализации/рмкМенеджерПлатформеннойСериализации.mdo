@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b9ce11f-ebf3-4b75-88e6-d00148e49908">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="661e521f-f35c-42b9-8956-2f9a02cde1b0">
   <producedTypes>
-    <objectType typeId="39346937-ac0a-417f-b16b-ff300d57a78c" valueTypeId="c4ad1cae-9b73-41a6-9d06-f21123a05946"/>
-    <managerType typeId="1249874e-aec1-4858-ad71-5c786f602a18" valueTypeId="933747bf-4f7a-4ccf-847b-a0b0813759f4"/>
+    <objectType typeId="898e608d-364a-4500-a1e7-e2b7a6574b62" valueTypeId="d78fe133-147f-4eff-9f29-667462679853"/>
+    <managerType typeId="200128d2-9b38-4b30-94b2-31228e37202c" valueTypeId="dd5b1230-1d7f-432b-80ad-ec76b996fefc"/>
   </producedTypes>
-  <name>рмкМенеджерКонвертации</name>
+  <name>рмкМенеджерПлатформеннойСериализации</name>
   <synonym>
     <key>ru</key>
-    <value>Менеджер конвертации</value>
+    <value>Менеджер стандартной сериализации</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <attributes uuid="fa31dd00-4ac5-40aa-806f-02c95280e551">
+  <attributes uuid="d04f07aa-972b-408f-9663-5d2cd2c5ac4d">
     <name>ДанныеСообщения</name>
     <synonym>
       <key>ru</key>
@@ -20,7 +20,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="8c042f8a-6394-4243-a1ee-d696ca8500fe">
+  <attributes uuid="85509bd7-1534-426a-97dd-2be3ffd53cc2">
     <name>ИмяМетодаСериализации</name>
     <synonym>
       <key>ru</key>
