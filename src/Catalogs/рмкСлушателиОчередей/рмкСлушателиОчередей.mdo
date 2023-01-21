@@ -79,10 +79,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="17340a6a-eb09-42e9-976a-58ac797b37e3">
-    <name>СпособДесериализацииОбъекта</name>
+    <name>СпособСериализации</name>
     <synonym>
       <key>ru</key>
-      <value>Способ десериализации объекта</value>
+      <value>Способ сериализации</value>
     </synonym>
     <type>
       <types>EnumRef.рмкСпособыСериализации</types>
@@ -94,10 +94,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="dc320572-c8a4-4e73-a6f6-fb8f7c8ad213">
-    <name>ИмяМетодаДесериализации</name>
+    <name>ИмяМетодаСериализации</name>
     <synonym>
       <key>ru</key>
-      <value>Имя метода десериализации</value>
+      <value>Имя метода сериализации</value>
     </synonym>
     <type>
       <types>String</types>

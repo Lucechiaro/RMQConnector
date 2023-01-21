@@ -14,15 +14,17 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рмкВходящиеСообщения.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.рмкВходящиеСообщения.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Входящее сообщение</value>
+  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <codeLength>36</codeLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,6 +32,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.рмкВходящиеСообщения.Form.ItemForm</defaultObjectForm>
   <attributes uuid="32dab69c-a616-43be-b6f0-b2106ece9507">
     <name>ТекущийСтатус</name>
     <synonym>
@@ -141,4 +144,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e15c302d-3ddc-4e26-92a7-645dad3838f2">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
