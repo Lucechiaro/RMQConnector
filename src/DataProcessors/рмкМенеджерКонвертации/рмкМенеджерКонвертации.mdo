@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b9ce11f-ebf3-4b75-88e6-d00148e49908">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b9ce11f-ebf3-4b75-88e6-d00148e49908">
   <producedTypes>
     <objectType typeId="39346937-ac0a-417f-b16b-ff300d57a78c" valueTypeId="c4ad1cae-9b73-41a6-9d06-f21123a05946"/>
     <managerType typeId="1249874e-aec1-4858-ad71-5c786f602a18" valueTypeId="933747bf-4f7a-4ccf-847b-a0b0813759f4"/>
@@ -10,29 +10,4 @@
     <value>Менеджер конвертации</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <attributes uuid="fa31dd00-4ac5-40aa-806f-02c95280e551">
-    <name>ДанныеСообщения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Данные сообщения</value>
-    </synonym>
-    <type/>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="8c042f8a-6394-4243-a1ee-d696ca8500fe">
-    <name>ИмяМетодаСериализации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя метода сериализации</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
 </mdclass:DataProcessor>

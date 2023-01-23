@@ -71,6 +71,5 @@
   <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
   <dataProcessors>DataProcessor.рмкКонсольОтладки</dataProcessors>
   <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>
-  <dataProcessors>DataProcessor.рмкМенеджерПлатформеннойСериализации</dataProcessors>
   <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
 </mdclass:Configuration>
