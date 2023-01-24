@@ -21,7 +21,7 @@
   <content>Catalog.рмкСерверы</content>
   <content>Catalog.рмкСлушателиОчередей</content>
   <content>Catalog.рмкТочкиПодключения</content>
-  <content>Enum.рмкСпособыСериализации</content>
+  <content>Enum.рмкМенеджерыКонвертации</content>
   <content>Enum.рмкСтатусыСообщений</content>
   <content>DataProcessor.рмкКоннектор</content>
   <content>DataProcessor.рмкМенеджерКонвертации</content>

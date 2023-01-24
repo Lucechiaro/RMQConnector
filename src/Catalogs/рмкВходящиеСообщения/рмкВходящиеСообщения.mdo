@@ -118,7 +118,7 @@
       <value>Способ сериализации</value>
     </synonym>
     <type>
-      <types>EnumRef.рмкСпособыСериализации</types>
+      <types>EnumRef.рмкМенеджерыКонвертации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -137,6 +137,22 @@
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5e90ac1-ccee-4de2-a7f7-d80a836b9ec0">
+    <name>ДатаПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

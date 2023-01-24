@@ -5,32 +5,25 @@
     <listType typeId="25a94ad9-4d1c-4a5d-b7d8-6d45c93e7295" valueTypeId="1278a203-bcd4-4ba3-a232-b8e1db232e54"/>
     <managerType typeId="5f8a79d7-1e8b-4228-bfbc-c9786de2881b" valueTypeId="f3345907-584e-4298-9149-d864cd928b70"/>
   </producedTypes>
-  <name>рмкСпособыСериализации</name>
+  <name>рмкМенеджерыКонвертации</name>
   <synonym>
     <key>ru</key>
-    <value>Способы сериализации</value>
+    <value>Менеджеры конвертации</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="e40e9e75-5c22-4e43-93ba-418bbf4f6be6">
-    <name>ПлатформеннаяСериализация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Платформенная сериализация</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="26657182-649f-4df9-8dc8-ad10518bcc42">
-    <name>МетодВстроенногоМенеджера</name>
+    <name>ВстроенныйМенеджер</name>
     <synonym>
       <key>ru</key>
-      <value>Метод встроенного менеджера</value>
+      <value>Встроенный менеджер</value>
     </synonym>
   </enumValues>
   <enumValues uuid="355b2a51-216b-46e3-97f6-f25f969bb17a">
-    <name>МетодПодключаемогоМенеджера</name>
+    <name>ПодключаемыйМенеджер</name>
     <synonym>
       <key>ru</key>
-      <value>Метод подключаемого менеджера</value>
+      <value>Подключаемый менеджер</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

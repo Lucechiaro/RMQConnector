@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.рмкСлушателиОчередей.Form.ItemForm</defaultObjectForm>
   <attributes uuid="da6363b0-d36a-452b-9c9b-46872c365b1f">
     <name>Сервер</name>
     <synonym>
@@ -79,13 +80,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="17340a6a-eb09-42e9-976a-58ac797b37e3">
-    <name>СпособСериализации</name>
+    <name>МенеджерКонвертации</name>
     <synonym>
       <key>ru</key>
-      <value>Способ сериализации</value>
+      <value>Менеджер конвертации</value>
     </synonym>
     <type>
-      <types>EnumRef.рмкСпособыСериализации</types>
+      <types>EnumRef.рмкМенеджерыКонвертации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -94,10 +95,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="dc320572-c8a4-4e73-a6f6-fb8f7c8ad213">
-    <name>ИмяМетодаСериализации</name>
+    <name>ИмяМетодаКонвертации</name>
     <synonym>
       <key>ru</key>
-      <value>Имя метода сериализации</value>
+      <value>Имя метода конвертации</value>
     </synonym>
     <type>
       <types>String</types>
@@ -111,4 +112,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="12668d63-12bc-4732-84f4-b6557487bcb1">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e970ef74-1858-4914-b172-c70d945ad3a6">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
