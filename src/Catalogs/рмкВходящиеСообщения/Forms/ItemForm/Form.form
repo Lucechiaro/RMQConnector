@@ -259,7 +259,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СпособСериализации</segments>
+      <segments>Объект.МенеджерКонвертации</segments>
     </dataPath>
     <extendedTooltip>
       <name>СпособСериализацииРасширеннаяПодсказка</name>
@@ -309,7 +309,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ИмяМетодаСериализации</segments>
+      <segments>Объект.ИмяМетодаКонвертации</segments>
     </dataPath>
     <extendedTooltip>
       <name>ИмяМетодаСериализацииРасширеннаяПодсказка</name>

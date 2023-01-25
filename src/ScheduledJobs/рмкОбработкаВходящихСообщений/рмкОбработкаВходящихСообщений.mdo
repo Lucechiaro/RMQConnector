@@ -5,8 +5,8 @@
     <key>ru</key>
     <value>Обработка входящих сообщений</value>
   </synonym>
-  <methodName>CommonModule.рмкОбработкаСообщений.ОбработатьВходящиеСообщения</methodName>
-  <use>true</use>
+  <methodName>CommonModule.рмкОбработкаСообщений.ВыполнитьРегламентОбработкиВходящихСообщений</methodName>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

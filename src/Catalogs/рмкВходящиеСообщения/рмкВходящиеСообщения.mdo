@@ -112,10 +112,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="36bda061-8dd1-42e0-b0b7-37585fd2398b">
-    <name>СпособСериализации</name>
+    <name>МенеджерКонвертации</name>
     <synonym>
       <key>ru</key>
-      <value>Способ сериализации</value>
+      <value>Менеджер конвертации</value>
     </synonym>
     <type>
       <types>EnumRef.рмкМенеджерыКонвертации</types>
@@ -127,10 +127,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="38a844b0-dc87-44de-bb63-a732e4b8a9bf">
-    <name>ИмяМетодаСериализации</name>
+    <name>ИмяМетодаКонвертации</name>
     <synonym>
       <key>ru</key>
-      <value>Имя метода сериализации</value>
+      <value>Имя метода конвертации</value>
     </synonym>
     <type>
       <types>String</types>

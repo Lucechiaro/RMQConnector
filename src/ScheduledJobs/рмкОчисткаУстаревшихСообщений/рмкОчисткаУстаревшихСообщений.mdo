@@ -6,7 +6,7 @@
     <value>Очистка устаревших сообщений</value>
   </synonym>
   <methodName>CommonModule.рмкОбработкаСообщений.ОчиститьУстаревшиеСообщения</methodName>
-  <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

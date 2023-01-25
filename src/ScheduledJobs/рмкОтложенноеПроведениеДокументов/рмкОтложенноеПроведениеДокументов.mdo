@@ -6,7 +6,7 @@
     <value>Отложенное проведение документов</value>
   </synonym>
   <methodName>CommonModule.рмкОбработкаСообщений.ВыполнитьОтложенноеПроведениеДокументов</methodName>
-  <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

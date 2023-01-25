@@ -6,7 +6,7 @@
     <value>Получение сообщений из очередей RMQ</value>
   </synonym>
   <methodName>CommonModule.рмкОбработкаСообщений.ПолучитьСообщенияИзОчередей</methodName>
-  <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>
