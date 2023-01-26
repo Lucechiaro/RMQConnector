@@ -37,6 +37,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рмкИсходящиеСообщения.Form.ItemForm</defaultObjectForm>
+  <defaultChoiceForm>Catalog.рмкИсходящиеСообщения.Form.ChoiceForm</defaultChoiceForm>
   <attributes uuid="bca55bf7-ef81-483e-a876-5b962801b2c9">
     <name>ТекущийСтатус</name>
     <synonym>
@@ -130,11 +131,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="da1cb78a-f007-4f09-ab87-bbf45953ed92">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="71464817-258f-4c62-a480-79953fd32269">
     <name>ItemForm</name>
     <synonym>
       <key>ru</key>
       <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ff5a94f-1dc7-4986-8520-973068ee7982">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Choice form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

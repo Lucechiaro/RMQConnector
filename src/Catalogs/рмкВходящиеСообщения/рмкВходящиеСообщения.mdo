@@ -33,6 +33,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рмкВходящиеСообщения.Form.ItemForm</defaultObjectForm>
+  <defaultChoiceForm>Catalog.рмкВходящиеСообщения.Form.ChoiceForm</defaultChoiceForm>
   <attributes uuid="32dab69c-a616-43be-b6f0-b2106ece9507">
     <name>ТекущийСтатус</name>
     <synonym>
@@ -165,6 +166,15 @@
     <synonym>
       <key>ru</key>
       <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a7390fb-1069-4fa1-b2e1-b7124d393f80">
+    <name>ChoiceForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Choice form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
