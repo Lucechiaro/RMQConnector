@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2844bb1a-239d-442d-8fce-31ae2304052d">
+  <name>рмкЗагрузкаПодключаемогоМенеджераКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка подключаемого менеджера конвертации</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

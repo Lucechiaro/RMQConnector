@@ -59,7 +59,9 @@
   <scheduledJobs>ScheduledJob.рмкОтправкаИсходящихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОчисткаУстаревшихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкПолучениеСообщенийИзОчередей</scheduledJobs>
+  <constants>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</constants>
   <constants>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</constants>
+  <commonForms>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</commonForms>
   <catalogs>Catalog.рмкВиртуальныеХосты</catalogs>
   <catalogs>Catalog.рмкВходящиеСообщения</catalogs>
   <catalogs>Catalog.рмкИсходящиеСообщения</catalogs>
