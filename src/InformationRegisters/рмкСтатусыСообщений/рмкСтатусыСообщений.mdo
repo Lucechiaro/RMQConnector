@@ -14,10 +14,21 @@
     <key>en</key>
     <value>Статусы сообщений</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сообщений RMQ</value>
+  </synonym>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Статусы сообщения</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы сообщений RMQ</value>
+  </listPresentation>
   <resources uuid="984875c1-9a9f-4066-a3d5-7e446ddb612a">
     <name>Статус</name>
     <synonym>

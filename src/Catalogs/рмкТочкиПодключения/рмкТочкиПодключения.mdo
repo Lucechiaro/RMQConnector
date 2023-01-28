@@ -12,6 +12,10 @@
     <key>en</key>
     <value>Рмк точки подключения</value>
   </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Точки подключения</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рмкТочкиПодключения.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.рмкТочкиПодключения.StandardAttribute.Description</inputByString>
@@ -19,6 +23,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Точка подключения</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Точки подключения</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>

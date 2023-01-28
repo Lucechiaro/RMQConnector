@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Отправка исходящих сообщений</value>
   </synonym>
-  <methodName>CommonModule.рмкОбработкаСообщений.ОтправитьИсходящиеСообщения</methodName>
+  <methodName>CommonModule.рмкОбработкаСообщений.ОчиститьУстаревшиеСообщения</methodName>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

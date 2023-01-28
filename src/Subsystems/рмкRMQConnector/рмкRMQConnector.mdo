@@ -5,7 +5,12 @@
     <key>en</key>
     <value>RMQ Connector</value>
   </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>RMQ  connector</value>
+  </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.рмкОбщегоНазначения</content>
   <content>CommonModule.рмкОбщегоНазначенияПереопределяемый</content>
   <content>Role.рмкНастройкаКоннектораRMQ</content>
@@ -26,4 +31,10 @@
   <content>DataProcessor.рмкКоннектор</content>
   <content>DataProcessor.рмкМенеджерКонвертации</content>
   <content>InformationRegister.рмкСтатусыСообщений</content>
+  <content>CommonModule.рмкОбработкаСообщений</content>
+  <content>ScheduledJob.рмкОтправкаИсходящихСообщений</content>
+  <content>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</content>
+  <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</content>
+  <content>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</content>
+  <content>DataProcessor.рмкКонсольОтладки</content>
 </mdclass:Subsystem>

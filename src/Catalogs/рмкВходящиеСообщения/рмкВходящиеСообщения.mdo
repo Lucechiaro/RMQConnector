@@ -12,6 +12,10 @@
     <key>en</key>
     <value>Входящие сообщения</value>
   </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Входящие сообщения</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рмкВходящиеСообщения.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -22,6 +26,10 @@
     <key>ru</key>
     <value>Входящее сообщение</value>
   </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Входящие сообщения</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>36</codeLength>

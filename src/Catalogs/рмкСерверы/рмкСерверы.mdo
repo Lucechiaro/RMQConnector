@@ -12,6 +12,10 @@
     <key>en</key>
     <value>Серверы RabbitMQ</value>
   </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Серверы RMQ</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рмкСерверы.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.рмкСерверы.StandardAttribute.Description</inputByString>
@@ -19,6 +23,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сервер RMQ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Серверы RMQ</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -30,6 +42,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.рмкСерверы.Form.ItemForm</defaultObjectForm>
   <attributes uuid="5e33c82e-0bbc-496f-82dc-6480d903fd88">
     <name>Адрес</name>
     <synonym>
@@ -52,6 +65,10 @@
     <name>ИмяПользователя</name>
     <synonym>
       <key>en</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Имя пользователя</value>
     </synonym>
     <type>
@@ -110,4 +127,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="a191c0fc-f931-4a0c-8ad1-9c69d634e5be">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

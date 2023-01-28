@@ -8,13 +8,12 @@
   <name>рмкИнформацияОПодключаемомМенеджереКонвертации</name>
   <synonym>
     <key>ru</key>
-    <value>Рмк информация о подключаемом менеджере конвертации</value>
+    <value>Информация о подключаемом менеджере конвертации</value>
   </synonym>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
-  <useStandardCommands>true</useStandardCommands>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

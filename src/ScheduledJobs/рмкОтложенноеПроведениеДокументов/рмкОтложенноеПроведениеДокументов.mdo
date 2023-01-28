@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Отложенное проведение документов</value>
   </synonym>
-  <methodName>CommonModule.рмкОбработкаСообщений.ВыполнитьОтложенноеПроведениеДокументов</methodName>
+  <methodName>CommonModule.рмкОбщегоНазначения.ВыполнитьОтложенноеПроведениеДокументов</methodName>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

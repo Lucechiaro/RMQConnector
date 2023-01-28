@@ -8,13 +8,17 @@
   <name>рмкХранилищеПодключаемогоМенеджераКонвертации</name>
   <synonym>
     <key>ru</key>
-    <value>Хранилище подключаемого менеджера конвертации</value>
+    <value>Подключаемый менеджер конвертации</value>
   </synonym>
   <type>
     <types>ValueStorage</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Подключаемый менеджер конвертации</value>
+  </extendedPresentation>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

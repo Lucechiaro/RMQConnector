@@ -9,5 +9,8 @@
     <key>ru</key>
     <value>Коннектор RMQ</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Коннектор RMQ</value>
+  </extendedPresentation>
 </mdclass:DataProcessor>
