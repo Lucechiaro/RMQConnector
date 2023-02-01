@@ -55,6 +55,7 @@
   <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначенияПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.рмкПриЗаписиОбъектаРепликации</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рмкПриЗаписиРегистраРепликации</eventSubscriptions>
   <scheduledJobs>ScheduledJob.рмкОбработкаВходящихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОтложенноеПроведениеДокументов</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОтправкаИсходящихСообщений</scheduledJobs>
@@ -76,5 +77,8 @@
   <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
   <dataProcessors>DataProcessor.рмкКонсольОтладки</dataProcessors>
   <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>
+  <dataProcessors>DataProcessor.рмкМенеджерКонвертацииXDTO</dataProcessors>
+  <informationRegisters>InformationRegister.рмкДокументыКОтложенномуПроведению</informationRegisters>
   <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
+  <informationRegisters>InformationRegister.Тест_АктуальностьНоменклатуры</informationRegisters>
 </mdclass:Configuration>

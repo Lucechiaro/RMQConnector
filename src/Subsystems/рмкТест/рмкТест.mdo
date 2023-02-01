@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Тест_Номенклатура</content>
   <content>Catalog.Тест_Номенклатура1</content>
+  <content>InformationRegister.Тест_АктуальностьНоменклатуры</content>
 </mdclass:Subsystem>

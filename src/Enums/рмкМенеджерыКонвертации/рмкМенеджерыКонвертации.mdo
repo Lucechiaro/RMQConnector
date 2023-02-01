@@ -26,4 +26,11 @@
       <value>Подключаемый менеджер</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="a4ef4e24-8508-4915-bc28-10721268ba6f">
+    <name>МенеджерXDTO</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер XDTO</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

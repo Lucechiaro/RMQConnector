@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae69f334-44c3-4d9d-9ae7-359fb98b2240">
+  <producedTypes>
+    <selectionType typeId="1665fd06-2164-4e44-924b-65710a6e64fc" valueTypeId="6b447280-4721-4699-89b7-13e2d7141bcc"/>
+    <listType typeId="98d07e16-8996-4de5-9e00-82f549ccd231" valueTypeId="7671f6ca-3664-4221-adf7-4d18beabc3b7"/>
+    <managerType typeId="f2ab80bb-82a6-47ff-9879-d8a6bf4e85c4" valueTypeId="77aea38e-0bb1-4d13-a7db-e2e2706ebb42"/>
+    <recordSetType typeId="7b309645-cea9-4b9b-8b57-642c8eaa7ccd" valueTypeId="32109f11-0cc5-4791-9394-3304bd35e8bd"/>
+    <recordKeyType typeId="632830aa-3d9e-45e1-8478-f7c19affc61c" valueTypeId="165ddd8e-ec1f-46b4-a52d-ee1612557e8a"/>
+    <recordType typeId="541612da-e596-43bf-83d9-f42e779b580a" valueTypeId="5829f7bd-991a-420d-8652-3bf300dc5349"/>
+    <recordManagerType typeId="e040d475-a375-4fdb-a57f-0df745ce3a59" valueTypeId="387d4d3a-46c0-4002-a327-37a58c787b94"/>
+  </producedTypes>
+  <name>Тест_АктуальностьНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест актуальность номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e715acc8-1ed1-4ede-bc51-018841ffc8e5">
+    <name>Актуальна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0a150ac9-7df8-4b3f-8feb-6030f7f06798">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тест_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
