@@ -91,24 +91,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="715ec659-d8c2-406d-9d0a-ce03afb49467">
-    <name>УдалитьПолноеИмяМетаданных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Удалить полное имя метаданных</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="750bfb3d-395e-41ae-b88c-85524f995ddd">
     <name>МенеджерКонвертации</name>
     <synonym>
