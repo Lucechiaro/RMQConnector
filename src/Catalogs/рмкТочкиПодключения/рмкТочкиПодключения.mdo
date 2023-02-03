@@ -92,10 +92,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="715ec659-d8c2-406d-9d0a-ce03afb49467">
-    <name>ПолноеИмяМетаданных</name>
+    <name>УдалитьПолноеИмяМетаданных</name>
     <synonym>
       <key>ru</key>
-      <value>Полное имя метаданных</value>
+      <value>Удалить полное имя метаданных</value>
     </synonym>
     <type>
       <types>String</types>
@@ -157,11 +157,48 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="6e98d72a-1982-40b1-997c-1409651ad567">
+    <producedTypes>
+      <objectType typeId="ad2fa303-19e7-4710-b2a7-f066765becfb" valueTypeId="de1623a8-4134-41dc-9a3b-19a67ee1f079"/>
+      <rowType typeId="807e082e-54f4-48c3-a5ef-5d589076f8dd" valueTypeId="8d708d5d-27a1-4f0d-ac12-e044dbca4227"/>
+    </producedTypes>
+    <name>МетаданныеДляРепликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные для репликации</value>
+    </synonym>
+    <attributes uuid="837bc7ee-8ac7-41c8-a4c2-2ddeb21005a4">
+      <name>ПолноеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="b352e4d3-db03-46a0-9c24-176fff3ab86f">
     <name>ItemForm</name>
     <synonym>
       <key>ru</key>
       <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0704c730-43f7-4fb3-91bb-3d82260fcfc9">
+    <name>ФормаПодбораМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора метаданных</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
