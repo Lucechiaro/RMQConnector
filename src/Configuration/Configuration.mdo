@@ -61,6 +61,7 @@
   <scheduledJobs>ScheduledJob.рмкОтправкаИсходящихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОчисткаУстаревшихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкПолучениеСообщенийИзОчередей</scheduledJobs>
+  <constants>Constant.рмкДнейХраненияСообщений</constants>
   <constants>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</constants>
   <constants>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</constants>
   <commonForms>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</commonForms>
