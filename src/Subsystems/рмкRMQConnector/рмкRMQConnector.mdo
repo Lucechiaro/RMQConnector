@@ -38,4 +38,7 @@
   <content>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</content>
   <content>DataProcessor.рмкКонсольОтладки</content>
   <content>Constant.рмкДнейХраненияСообщений</content>
+  <content>InformationRegister.рмкДокументыКОтложенномуПроведению</content>
+  <content>DataProcessor.рмкМенеджерКонвертацииXDTO</content>
+  <content>EventSubscription.рмкПриЗаписиРегистраРепликации</content>
 </mdclass:Subsystem>
