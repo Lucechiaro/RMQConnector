@@ -18,6 +18,7 @@
     <key>ru</key>
     <value>Статусы сообщений RMQ</value>
   </synonym>
+  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>

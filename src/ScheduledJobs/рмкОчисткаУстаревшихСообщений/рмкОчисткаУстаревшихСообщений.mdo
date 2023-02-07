@@ -3,7 +3,7 @@
   <name>рмкОчисткаУстаревшихСообщений</name>
   <synonym>
     <key>ru</key>
-    <value>Очистка устаревших сообщений</value>
+    <value>(RMQ) Очистка устаревших сообщений</value>
   </synonym>
   <methodName>CommonModule.рмкОбработкаСообщений.ОчиститьУстаревшиеСообщения</methodName>
   <predefined>true</predefined>

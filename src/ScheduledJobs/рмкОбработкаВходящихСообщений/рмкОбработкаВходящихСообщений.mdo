@@ -3,7 +3,7 @@
   <name>рмкОбработкаВходящихСообщений</name>
   <synonym>
     <key>ru</key>
-    <value>Обработка входящих сообщений</value>
+    <value>(RMQ) Обработка входящих сообщений</value>
   </synonym>
   <methodName>CommonModule.рмкОбработкаСообщений.ВыполнитьРегламентОбработкиВходящихСообщений</methodName>
   <predefined>true</predefined>

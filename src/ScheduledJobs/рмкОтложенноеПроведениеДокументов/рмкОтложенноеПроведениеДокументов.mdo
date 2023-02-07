@@ -3,7 +3,7 @@
   <name>рмкОтложенноеПроведениеДокументов</name>
   <synonym>
     <key>ru</key>
-    <value>Отложенное проведение документов</value>
+    <value>(RMQ) Отложенное проведение документов</value>
   </synonym>
   <methodName>CommonModule.рмкОбщегоНазначения.ВыполнитьОтложенноеПроведениеДокументов</methodName>
   <predefined>true</predefined>

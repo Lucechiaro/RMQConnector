@@ -3,7 +3,7 @@
   <name>рмкПолучениеСообщенийИзОчередей</name>
   <synonym>
     <key>ru</key>
-    <value>Получение сообщений из очередей RMQ</value>
+    <value>(RMQ) Получение сообщений из очередей RMQ</value>
   </synonym>
   <methodName>CommonModule.рмкОбработкаСообщений.ПолучитьСообщенияИзОчередей</methodName>
   <predefined>true</predefined>

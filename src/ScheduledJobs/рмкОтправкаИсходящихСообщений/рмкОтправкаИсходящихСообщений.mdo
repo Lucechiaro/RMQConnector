@@ -3,9 +3,9 @@
   <name>рмкОтправкаИсходящихСообщений</name>
   <synonym>
     <key>ru</key>
-    <value>Отправка исходящих сообщений</value>
+    <value>(RMQ) Отправка исходящих сообщений</value>
   </synonym>
-  <methodName>CommonModule.рмкОбработкаСообщений.ОчиститьУстаревшиеСообщения</methodName>
+  <methodName>CommonModule.рмкОбработкаСообщений.ВыполнитьРегламентОтправкиИсходящихСообщения</methodName>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

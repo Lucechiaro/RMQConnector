@@ -42,7 +42,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.рмкТочкиПодключения.Form.ItemForm</defaultObjectForm>
+  <defaultObjectForm>Catalog.рмкТочкиПодключения.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="c94ce38b-089b-44a8-9ce2-c4c5aed5f3c8">
     <name>Сервер</name>
     <synonym>
@@ -84,24 +84,6 @@
     </synonym>
     <type>
       <types>CatalogRef.рмкВиртуальныеХосты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="715ec659-d8c2-406d-9d0a-ce03afb49467">
-    <name>УдалитьПолноеИмяМетаданных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Удалить полное имя метаданных</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -186,10 +168,10 @@
     </attributes>
   </tabularSections>
   <forms uuid="b352e4d3-db03-46a0-9c24-176fff3ab86f">
-    <name>ItemForm</name>
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Item form</value>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
