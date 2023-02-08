@@ -10,4 +10,6 @@
   <content>Catalog.Тест_Номенклатура</content>
   <content>Catalog.Тест_Номенклатура1</content>
   <content>InformationRegister.Тест_АктуальностьНоменклатуры</content>
+  <content>AccumulationRegister.Тест_ОстаткиТоваров</content>
+  <content>Document.Тест_ПриходТоваров</content>
 </mdclass:Subsystem>

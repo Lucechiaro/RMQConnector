@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="882285e6-da6e-4082-9feb-26fc96a3a489">
+  <producedTypes>
+    <objectType typeId="fcfffed4-2369-45f6-b3ee-1a9cf6812adc" valueTypeId="193021e0-4997-4aef-92fb-4fd1ee9c0828"/>
+    <refType typeId="6d45a2cc-c53e-4da4-bd72-ed28776440a0" valueTypeId="454f53e7-b72c-4b0e-a983-aa4ad581bcf3"/>
+    <selectionType typeId="af0bbce5-6b4b-4b24-88cf-5865176fdf26" valueTypeId="aec80b17-ee8b-449e-9859-99a3bfd976b8"/>
+    <listType typeId="7ceddfe1-a300-4d5c-9799-0a4ca564054e" valueTypeId="5d7946b1-54d6-4d18-bf35-2c0cfa1078bd"/>
+    <managerType typeId="3173b8ff-f260-47da-b1e2-d9d9a15dc955" valueTypeId="e43b048a-6efb-4ad7-a940-04bb695f59a0"/>
+  </producedTypes>
+  <name>Тест_ПриходТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест приход товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Тест_ПриходТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приход товаров</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Тест_ОстаткиТоваров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8710e29e-c9f5-48c0-9db0-c1df76bc22c3">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тест_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8314952a-9ff4-4b52-8f1f-efbe0e903055">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

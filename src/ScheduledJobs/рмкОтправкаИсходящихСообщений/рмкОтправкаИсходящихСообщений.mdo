@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>(RMQ) Отправка исходящих сообщений</value>
   </synonym>
-  <methodName>CommonModule.рмкОбработкаСообщений.ВыполнитьРегламентОтправкиИсходящихСообщения</methodName>
+  <methodName>CommonModule.рмкОбработкаСообщений.ВыполнитьРегламентОтправкиИсходящихСообщений</methodName>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

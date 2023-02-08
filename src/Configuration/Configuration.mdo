@@ -73,6 +73,7 @@
   <catalogs>Catalog.рмкТочкиПодключения</catalogs>
   <catalogs>Catalog.Тест_Номенклатура</catalogs>
   <catalogs>Catalog.Тест_Номенклатура1</catalogs>
+  <documents>Document.Тест_ПриходТоваров</documents>
   <enums>Enum.рмкМенеджерыКонвертации</enums>
   <enums>Enum.рмкСтатусыСообщений</enums>
   <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
@@ -82,4 +83,5 @@
   <informationRegisters>InformationRegister.рмкДокументыКОтложенномуПроведению</informationRegisters>
   <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
   <informationRegisters>InformationRegister.Тест_АктуальностьНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Тест_ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>
