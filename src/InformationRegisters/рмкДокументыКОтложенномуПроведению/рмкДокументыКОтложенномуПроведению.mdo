@@ -17,6 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Документы к отложенному проведению</value>
+  </recordPresentation>
   <resources uuid="07065c42-b3ef-45c7-941d-44e94e8b704a">
     <name>Дата</name>
     <synonym>
