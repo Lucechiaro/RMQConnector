@@ -41,4 +41,6 @@
   <content>InformationRegister.рмкДокументыКОтложенномуПроведению</content>
   <content>DataProcessor.рмкМенеджерКонвертацииXDTO</content>
   <content>EventSubscription.рмкПриЗаписиРегистраРепликации</content>
+  <content>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</content>
+  <content>Constant.рмкРазрешенаРаботаВКопииБазы</content>
 </mdclass:Subsystem>

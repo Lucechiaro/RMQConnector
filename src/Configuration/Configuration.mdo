@@ -51,9 +51,9 @@
   <subsystems>Subsystem.рмкТест</subsystems>
   <roles>Role.рмкНастройкаКоннектораRMQ</roles>
   <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</commonTemplates>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.рмкОбработкаСообщений</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначенияПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.рмкПриЗаписиОбъектаРепликации</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рмкПриЗаписиРегистраРепликации</eventSubscriptions>
@@ -64,6 +64,7 @@
   <scheduledJobs>ScheduledJob.рмкПолучениеСообщенийИзОчередей</scheduledJobs>
   <constants>Constant.рмкДнейХраненияСообщений</constants>
   <constants>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</constants>
+  <constants>Constant.рмкРазрешенаРаботаВКопииБазы</constants>
   <constants>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</constants>
   <commonForms>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</commonForms>
   <catalogs>Catalog.рмкВиртуальныеХосты</catalogs>
