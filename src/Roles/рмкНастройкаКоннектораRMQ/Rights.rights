@@ -236,14 +236,6 @@
 			<name>InteractiveClearDeletionMark</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</name>

@@ -43,4 +43,5 @@
   <content>EventSubscription.рмкПриЗаписиРегистраРепликации</content>
   <content>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</content>
   <content>Constant.рмкРазрешенаРаботаВКопииБазы</content>
+  <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x32</content>
 </mdclass:Subsystem>
