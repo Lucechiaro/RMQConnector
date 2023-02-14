@@ -49,6 +49,7 @@
   </languages>
   <subsystems>Subsystem.рмкRMQConnector</subsystems>
   <subsystems>Subsystem.рмкТест</subsystems>
+  <commonPictures>CommonPicture.рмкЭмблема</commonPictures>
   <roles>Role.рмкНастройкаКоннектораRMQ</roles>
   <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x32</commonTemplates>
   <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</commonTemplates>
