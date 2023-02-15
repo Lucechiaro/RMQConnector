@@ -11,6 +11,7 @@
   </synonym>
   <source>
     <types>InformationRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
   </source>
   <event>OnWrite</event>
   <handler>CommonModule.рмкОбработкаСообщений.ПриЗаписиРегистраРепликации</handler>
