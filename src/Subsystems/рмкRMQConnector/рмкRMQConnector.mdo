@@ -36,7 +36,6 @@
   <content>InformationRegister.рмкСтатусыСообщений</content>
   <content>CommonModule.рмкОбработкаСообщений</content>
   <content>ScheduledJob.рмкОтправкаИсходящихСообщений</content>
-  <content>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</content>
   <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</content>
   <content>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</content>
   <content>DataProcessor.рмкКонсольОтладки</content>
@@ -48,4 +47,7 @@
   <content>Constant.рмкРазрешенаРаботаВКопииБазы</content>
   <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x32</content>
   <content>CommonPicture.рмкЭмблема</content>
+  <content>Constant.рмкВерсияКомпоненты</content>
+  <content>CommonForm.рмкОбщиеНастройки</content>
+  <content>CommonCommand.рмкОткрытьФормуОбщихНастроек</content>
 </mdclass:Subsystem>

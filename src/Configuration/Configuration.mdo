@@ -57,6 +57,7 @@
   <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначенияПереопределяемый</commonModules>
+  <commonModules>CommonModule.рмкОбщегоНазначенияПовтИсп</commonModules>
   <eventSubscriptions>EventSubscription.рмкПриЗаписиОбъектаРепликации</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рмкПриЗаписиРегистраРепликации</eventSubscriptions>
   <scheduledJobs>ScheduledJob.рмкОбработкаВходящихСообщений</scheduledJobs>
@@ -64,11 +65,13 @@
   <scheduledJobs>ScheduledJob.рмкОтправкаИсходящихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОчисткаУстаревшихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкПолучениеСообщенийИзОчередей</scheduledJobs>
+  <commonCommands>CommonCommand.рмкОткрытьФормуОбщихНастроек</commonCommands>
+  <constants>Constant.рмкВерсияКомпоненты</constants>
   <constants>Constant.рмкДнейХраненияСообщений</constants>
   <constants>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</constants>
   <constants>Constant.рмкРазрешенаРаботаВКопииБазы</constants>
   <constants>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</constants>
-  <commonForms>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</commonForms>
+  <commonForms>CommonForm.рмкОбщиеНастройки</commonForms>
   <catalogs>Catalog.рмкВиртуальныеХосты</catalogs>
   <catalogs>Catalog.рмкВходящиеСообщения</catalogs>
   <catalogs>Catalog.рмкИсходящиеСообщения</catalogs>

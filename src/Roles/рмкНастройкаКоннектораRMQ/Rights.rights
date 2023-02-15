@@ -181,13 +181,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.рмкКонсольОтладки</name>
 		<right>
 			<name>Use</name>
@@ -381,6 +374,39 @@
 		</right>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.рмкВерсияКомпоненты</name>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.рмкОбщиеНастройки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.рмкОткрытьФормуОбщихНастроек</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

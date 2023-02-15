@@ -13,8 +13,6 @@
   <type>
     <types>ValueStorage</types>
   </type>
-  <useStandardCommands>true</useStandardCommands>
-  <defaultForm>CommonForm.рмкЗагрузкаПодключаемогоМенеджераКонвертации</defaultForm>
   <extendedPresentation>
     <key>ru</key>
     <value>Подключаемый менеджер конвертации</value>

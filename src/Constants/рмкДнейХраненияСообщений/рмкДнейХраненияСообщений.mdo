@@ -17,7 +17,6 @@
       <nonNegative>true</nonNegative>
     </numberQualifiers>
   </type>
-  <useStandardCommands>true</useStandardCommands>
   <extendedPresentation>
     <key>ru</key>
     <value>Дней хранения сообщений</value>

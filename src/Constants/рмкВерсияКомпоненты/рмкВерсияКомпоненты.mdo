@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7c3d4aa-9984-4a02-b691-9ce9dab4b8a7">
+  <producedTypes>
+    <managerType typeId="255d9347-48e8-4198-8dee-5aaf966514c2" valueTypeId="50a8bbdd-3983-4db5-af5d-5270c2d2c79f"/>
+    <valueManagerType typeId="649b7245-7e6d-4835-8604-41b3f8473201" valueTypeId="f4cbab7c-f9be-4072-8473-58ced76b30e0"/>
+    <valueKeyType typeId="9e51bea6-13eb-4a1c-b072-04ec61e85dfa" valueTypeId="eddab1ae-fd85-4335-9ad5-4884ca1ee65a"/>
+  </producedTypes>
+  <name>рмкВерсияКомпоненты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия компоненты</value>
+  </synonym>
+  <comment>Имя общего макета компоненты</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
