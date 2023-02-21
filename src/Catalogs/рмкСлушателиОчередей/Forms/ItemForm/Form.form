@@ -196,6 +196,10 @@
   <items xsi:type="form:FormField">
     <name>ВиртуальныйХост</name>
     <id>10</id>
+    <title>
+      <key>ru</key>
+      <value>Виртуальный хост (vhost)</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -246,6 +250,10 @@
   <items xsi:type="form:FormField">
     <name>ИмяОчереди</name>
     <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>Имя очереди (queue)</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
