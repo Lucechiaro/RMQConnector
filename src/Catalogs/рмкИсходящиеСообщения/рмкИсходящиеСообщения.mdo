@@ -120,6 +120,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рмкИсходящиеСообщения.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.рмкИсходящиеСообщения.Form.ListForm</defaultListForm>
   <defaultChoiceForm>Catalog.рмкИсходящиеСообщения.Form.ChoiceForm</defaultChoiceForm>
   <attributes uuid="bca55bf7-ef81-483e-a876-5b962801b2c9">
     <name>ТекущийСтатус</name>
@@ -230,6 +231,38 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="258f02fa-c158-41bb-b3fd-9b0b0d3af154">
+    <name>ПредставлениеМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="614a845e-ffaa-447b-8fc1-a2100b20153d">
+    <name>ПредставлениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="71464817-258f-4c62-a480-79953fd32269">
     <name>ItemForm</name>
     <synonym>
@@ -244,6 +277,15 @@
     <synonym>
       <key>ru</key>
       <value>Choice form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="61a31a37-1382-49ef-9031-b79666f82aec">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
