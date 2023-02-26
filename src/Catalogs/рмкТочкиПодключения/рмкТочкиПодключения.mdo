@@ -206,6 +206,20 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="9c77ddcb-2c85-44d3-8585-a99a319bb9c4">
+      <name>ВыгружатьСДвижениями</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выгружать с движениями</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <forms uuid="b352e4d3-db03-46a0-9c24-176fff3ab86f">
     <name>ФормаЭлемента</name>
