@@ -14,7 +14,7 @@
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Слушатели очередей</value>
+    <value>Слушатели очередей (queues)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рмкСлушателиОчередей.StandardAttribute.Code</inputByString>
@@ -25,11 +25,11 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Слушатель очереди</value>
+    <value>Слушатель очереди (queue)</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Слушатели очередей</value>
+    <value>Слушатели очередей (queues)</value>
   </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>

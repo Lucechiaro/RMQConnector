@@ -51,4 +51,5 @@
   <content>CommonForm.рмкОбщиеНастройки</content>
   <content>CommonCommand.рмкОткрытьФормуОбщихНастроек</content>
   <content>CommonModule.рмкОбщегоНазначенияПовтИсп</content>
+  <content>Enum.рмкТипыПередаваемойИнформации</content>
 </mdclass:Subsystem>

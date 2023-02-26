@@ -83,6 +83,7 @@
   <documents>Document.Тест_ПриходТоваров</documents>
   <enums>Enum.рмкМенеджерыКонвертации</enums>
   <enums>Enum.рмкСтатусыСообщений</enums>
+  <enums>Enum.рмкТипыПередаваемойИнформации</enums>
   <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
   <dataProcessors>DataProcessor.рмкКонсольОтладки</dataProcessors>
   <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>
