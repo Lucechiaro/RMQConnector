@@ -31,14 +31,6 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.18</compatibilityMode>
-  <languages uuid="897ebdfa-d050-494c-92df-8e124310640f">
-    <name>English</name>
-    <synonym>
-      <key>en</key>
-      <value>English</value>
-    </synonym>
-    <languageCode>en</languageCode>
-  </languages>
   <languages uuid="99be90b2-fd14-462a-8107-4c5b6b957db8">
     <name>Русский</name>
     <synonym>
@@ -49,47 +41,17 @@
   </languages>
   <subsystems>Subsystem.рмкRMQConnector</subsystems>
   <subsystems>Subsystem.рмкТест</subsystems>
-  <commonPictures>CommonPicture.рмкЭмблема</commonPictures>
-  <roles>Role.рмкНастройкаКоннектораRMQ</roles>
-  <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x32</commonTemplates>
-  <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</commonTemplates>
   <commonModules>CommonModule.рмкОбработкаСообщений</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</commonModules>
-  <commonModules>CommonModule.рмкОбщегоНазначенияПереопределяемый</commonModules>
-  <commonModules>CommonModule.рмкОбщегоНазначенияПовтИсп</commonModules>
-  <eventSubscriptions>EventSubscription.рмкПриЗаписиОбъектаРепликации</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.рмкПриЗаписиРегистраРепликации</eventSubscriptions>
   <scheduledJobs>ScheduledJob.рмкОбработкаВходящихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОтложенноеПроведениеДокументов</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОтправкаИсходящихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОчисткаУстаревшихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкПолучениеСообщенийИзОчередей</scheduledJobs>
-  <commonCommands>CommonCommand.рмкОткрытьФормуОбщихНастроек</commonCommands>
-  <constants>Constant.рмкВерсияКомпоненты</constants>
-  <constants>Constant.рмкДнейХраненияСообщений</constants>
-  <constants>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</constants>
-  <constants>Constant.рмкРазрешенаРаботаВКопииБазы</constants>
-  <constants>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</constants>
-  <commonForms>CommonForm.рмкОбщиеНастройки</commonForms>
-  <catalogs>Catalog.рмкВиртуальныеХосты</catalogs>
-  <catalogs>Catalog.рмкВходящиеСообщения</catalogs>
-  <catalogs>Catalog.рмкИсходящиеСообщения</catalogs>
-  <catalogs>Catalog.рмкСерверы</catalogs>
-  <catalogs>Catalog.рмкСлушателиОчередей</catalogs>
-  <catalogs>Catalog.рмкТочкиПодключения</catalogs>
   <catalogs>Catalog.Тест_Номенклатура</catalogs>
   <catalogs>Catalog.Тест_Номенклатура1</catalogs>
   <documents>Document.Тест_ПриходТоваров</documents>
-  <enums>Enum.рмкМенеджерыКонвертации</enums>
-  <enums>Enum.рмкСтатусыСообщений</enums>
-  <enums>Enum.рмкТипыПередаваемойИнформации</enums>
-  <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
-  <dataProcessors>DataProcessor.рмкКонсольОтладки</dataProcessors>
-  <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>
-  <dataProcessors>DataProcessor.рмкМенеджерКонвертацииXDTO</dataProcessors>
   <informationRegisters>InformationRegister.рмкДокументыКОтложенномуПроведению</informationRegisters>
-  <informationRegisters>InformationRegister.рмкСтатусыСообщений</informationRegisters>
   <informationRegisters>InformationRegister.Тест_АктуальностьНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Тест_ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>

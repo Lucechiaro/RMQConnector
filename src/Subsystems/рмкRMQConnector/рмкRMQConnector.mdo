@@ -15,41 +15,11 @@
     <picture>CommonPicture.рмкЭмблема</picture>
   </picture>
   <content>CommonModule.рмкОбщегоНазначения</content>
-  <content>CommonModule.рмкОбщегоНазначенияПереопределяемый</content>
-  <content>Role.рмкНастройкаКоннектораRMQ</content>
-  <content>EventSubscription.рмкПриЗаписиОбъектаРепликации</content>
   <content>ScheduledJob.рмкОбработкаВходящихСообщений</content>
   <content>ScheduledJob.рмкОтложенноеПроведениеДокументов</content>
   <content>ScheduledJob.рмкОчисткаУстаревшихСообщений</content>
   <content>ScheduledJob.рмкПолучениеСообщенийИзОчередей</content>
-  <content>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</content>
-  <content>Catalog.рмкВиртуальныеХосты</content>
-  <content>Catalog.рмкВходящиеСообщения</content>
-  <content>Catalog.рмкИсходящиеСообщения</content>
-  <content>Catalog.рмкСерверы</content>
-  <content>Catalog.рмкСлушателиОчередей</content>
-  <content>Catalog.рмкТочкиПодключения</content>
-  <content>Enum.рмкМенеджерыКонвертации</content>
-  <content>Enum.рмкСтатусыСообщений</content>
-  <content>DataProcessor.рмкКоннектор</content>
-  <content>DataProcessor.рмкМенеджерКонвертации</content>
-  <content>InformationRegister.рмкСтатусыСообщений</content>
   <content>CommonModule.рмкОбработкаСообщений</content>
   <content>ScheduledJob.рмкОтправкаИсходящихСообщений</content>
-  <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</content>
-  <content>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</content>
-  <content>DataProcessor.рмкКонсольОтладки</content>
-  <content>Constant.рмкДнейХраненияСообщений</content>
   <content>InformationRegister.рмкДокументыКОтложенномуПроведению</content>
-  <content>DataProcessor.рмкМенеджерКонвертацииXDTO</content>
-  <content>EventSubscription.рмкПриЗаписиРегистраРепликации</content>
-  <content>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</content>
-  <content>Constant.рмкРазрешенаРаботаВКопииБазы</content>
-  <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x32</content>
-  <content>CommonPicture.рмкЭмблема</content>
-  <content>Constant.рмкВерсияКомпоненты</content>
-  <content>CommonForm.рмкОбщиеНастройки</content>
-  <content>CommonCommand.рмкОткрытьФормуОбщихНастроек</content>
-  <content>CommonModule.рмкОбщегоНазначенияПовтИсп</content>
-  <content>Enum.рмкТипыПередаваемойИнформации</content>
 </mdclass:Subsystem>

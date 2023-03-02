@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f23ad1b-e9d6-4337-8078-6b4897fe28e6">
-  <name>рмкНастройкаКоннектораRMQ</name>
-  <synonym>
-    <key>en</key>
-    <value>Настройка коннектора RMQ</value>
-  </synonym>
-</mdclass:Role>
