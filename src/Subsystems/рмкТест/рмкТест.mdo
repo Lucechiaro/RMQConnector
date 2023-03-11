@@ -12,4 +12,5 @@
   <content>InformationRegister.Тест_АктуальностьНоменклатуры</content>
   <content>AccumulationRegister.Тест_ОстаткиТоваров</content>
   <content>Document.Тест_ПриходТоваров</content>
+  <content>ExchangePlan.Тест_РИБ</content>
 </mdclass:Subsystem>

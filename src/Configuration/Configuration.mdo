@@ -28,9 +28,10 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.18</compatibilityMode>
+  <interfaceCompatibilityMode>Version8_2EnableTaxi</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="99be90b2-fd14-462a-8107-4c5b6b957db8">
     <name>Русский</name>
     <synonym>
@@ -43,6 +44,7 @@
   <subsystems>Subsystem.рмкТест</subsystems>
   <commonModules>CommonModule.рмкОбработкаСообщений</commonModules>
   <commonModules>CommonModule.рмкОбщегоНазначения</commonModules>
+  <exchangePlans>ExchangePlan.Тест_РИБ</exchangePlans>
   <scheduledJobs>ScheduledJob.рмкОбработкаВходящихСообщений</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОтложенноеПроведениеДокументов</scheduledJobs>
   <scheduledJobs>ScheduledJob.рмкОтправкаИсходящихСообщений</scheduledJobs>

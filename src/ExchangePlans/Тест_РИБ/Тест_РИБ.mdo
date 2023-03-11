@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5a0a7fb-7b41-43a2-8579-310be0cf270f" thisNode="a5bcea38-f17f-4c72-8b05-860a49890d36">
+  <producedTypes>
+    <objectType typeId="71608ef2-4a94-49a9-b7b2-0dc0dbfea039" valueTypeId="5d61121a-9e01-458c-bc9b-80096e8c279e"/>
+    <refType typeId="a130899c-bc8a-4fdb-b979-284111d0ea73" valueTypeId="c98fd382-3d7b-4bf5-8924-a95b1fb3e47d"/>
+    <selectionType typeId="493d2a61-ad04-442a-9427-df71d73902f0" valueTypeId="57763320-06a2-4054-a9fe-1dcc48761486"/>
+    <listType typeId="10a4fbcb-d500-4d3b-9f1b-563e36134d09" valueTypeId="0d704fc0-0fb7-4f4c-a656-72ddfcb3103e"/>
+    <managerType typeId="d99cc3eb-f36f-475d-a5a8-901cd0da9bfc" valueTypeId="2f7f6f8b-0a4f-41ea-96e6-1ef2d460b4d8"/>
+  </producedTypes>
+  <name>Тест_РИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест РИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Тест_РИБ.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.Тест_РИБ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>РИБ (тест)</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>AccumulationRegister.Тест_ОстаткиТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.Тест_АктуальностьНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.Тест_ПриходТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Тест_Номенклатура1</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Тест_Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <distributedInfoBase>true</distributedInfoBase>
+</mdclass:ExchangePlan>
